@@ -13,7 +13,7 @@ def curfew_checker(time)
   end
 end
 
-curfew_checker 
+puts curfew_checker (11)
 
 def complex_curfew_checker(time)
   if time==11
@@ -23,6 +23,7 @@ def complex_curfew_checker(time)
   else "you can keep having fun"
   end
 end
+puts complex_curfew_checker(7)
 
 def deluxe_curfew_checker(time)
   puts "time to apparate"
@@ -31,6 +32,7 @@ def deluxe_curfew_checker(time)
   else "you can keep having fun with the time you have left"
   end
 end
+puts deluxe_curfew_checker(7)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time > curfew_time 
