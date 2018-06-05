@@ -4,7 +4,7 @@ def simple_curfew_checker(time)
   end
 end
 
-puts simple_curfew_checker(12)
+puts simple_curfew_checker()
 
 def curfew_checker(time)
   if time>=11 
