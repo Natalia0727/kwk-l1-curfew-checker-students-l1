@@ -23,7 +23,11 @@ def complex_curfew_checker(time)
 end
 
 def deluxe_curfew_checker(time)
-  
+  puts "time to apparate"
+  if time > 11
+    puts "youre in trouble"
+  else "you can keep having fun with the time you have left"
+  end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
