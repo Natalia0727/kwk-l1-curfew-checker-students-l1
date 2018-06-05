@@ -35,5 +35,5 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "youre in trouble"
   else 
     puts "there are #{curfew_time - current_time} hours left"
-  
+  end
 end
